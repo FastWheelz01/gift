@@ -2,9 +2,10 @@
 
 export default function Home() {
   return (
-    <main className="flex-1 bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 text-center">
-      <div className="text-red-500">
+    <main className="gradient-pattern min-h-screen flex items-center justify-center">
+      <div className="text-red-500 text-center">
         EROR-404:GIFT NOT PREPARED
+        <br />
         FIX:COME BACK LATER 
       </div>
     </main>
