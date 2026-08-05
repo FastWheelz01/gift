@@ -35,17 +35,13 @@ body {
   animation: gradient 10s linear infinite;
   background-image: linear-gradient(
     135deg,
-    #8b5cf6, #c026d3, #ec4899,
-    #8b5cf6, #c026d3, #ec4899
+    #8b5cf6 0%,
+    #c026d3 16.66%,
+    #ec4899 33.33%,
+    #8b5cf6 50%,
+    #c026d3 66.66%,
+    #ec4899 83.33%,
+    #8b5cf6 100%
   );
   background-size: 400% 400%;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
 }
