@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Home() {
   return (
 <main className="gradient-pattern min-h-screen flex flex-col items-center justify-center text-center">
-  <div className="text-red-500 text-center">
-    <h1 className="font-bold text-white drop-shadow-lg text-4Xl">
+  <div className="text-center">
+    <h1 className="font-bold text-white drop-shadow-lg text-4xl">
 Hello alin....it has been a lot of time since we've met each other.
       <br />
 I know this might be a small suprise to you but it has came from all my heart to make you happy and steal your heart :3
