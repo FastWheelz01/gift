@@ -28,7 +28,7 @@ export default function EnterPassword() {
           setPassword(e.target.value);
           setError(false);
         }}
-        placeholder="Enter password"
+        placeholder="Enter password / entree le mot de passe"
         className={`border px-4 py-2 rounded ${error ? "border-red-500" : ""}`}
       />
       <button
