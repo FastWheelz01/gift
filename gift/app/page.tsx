@@ -17,12 +17,12 @@ I shall let you acces our souvenir vault of all our fun moments and lovely text 
         <div className="text-center">
         <Link href="/gift">
         <button type="button" className="bg-white text-purple-700 font-semibold py-2 px-4 rounded-lg m-2">
-          Gift
+          🎁
         </button>
       </Link>
       <Link href="/contribution">
         <button type="button" className="bg-white text-pink-700 font-semibold py-2 px-4 rounded-lg m-2">
-          Contributions
+          ✍️
         </button>
       </Link>
       </div>
