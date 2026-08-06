@@ -6,6 +6,18 @@
       "type": "shell",
       "command": "git add . ; git commit -m 'update' ; git push",
       "problemMatcher": []
+    },
+    {
+      "label": "Sync (Pull)",
+      "type": "shell",
+      "command": "git pull",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
     }
   ]
 }
