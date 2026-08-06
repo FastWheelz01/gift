@@ -20,7 +20,7 @@ export default function EnterPassword() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center gap-4">
-      <h1 className="text-xl font-bold">This site is private /ce site est privée</h1>
+      <h1 className="text-xl font-bold">This site is private / ce site est privée</h1>
       <input
         type="password/mot de passe"
         value={password}
