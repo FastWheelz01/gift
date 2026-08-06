@@ -20,9 +20,9 @@ export default function EnterPassword() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center gap-4">
-      <h1 className="text-xl font-bold">This site is private</h1>
+      <h1 className="text-xl font-bold">This site is private /ce site est privee</h1>
       <input
-        type="password"
+        type="password/mot de passe"
         value={password}
         onChange={(e) => {
           setPassword(e.target.value);
@@ -38,7 +38,7 @@ export default function EnterPassword() {
       >
         Enter
       </button>
-      {error && <p className="text-red-500">Wrong password</p>}
+      {error && <p className="text-red-500">Wrong password / mauvais mot de passe</p>}
     </main>
   );
 }
