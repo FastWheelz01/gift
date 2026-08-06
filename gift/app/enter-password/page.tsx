@@ -9,6 +9,10 @@ export default function EnterPassword() {
   const router = useRouter();
 
   const handleSubmit = () => {
+    if (password !== "alinmylove") {
+      setError(true);
+      return;
+    }
     document.cookie = `site-auth=${password}; path=/; max-age=${60 * 60 * 24 * 7}`;
     router.push("/");
     router.refresh();
@@ -20,9 +24,12 @@ export default function EnterPassword() {
       <input
         type="password"
         value={password}
-        onChange={(e) => setPassword(e.target.value)}
+        onChange={(e) => {
+          setPassword(e.target.value);
+          setError(false);
+        }}
         placeholder="Enter password"
-        className="border px-4 py-2 rounded"
+        className={`border px-4 py-2 rounded ${error ? "border-red-500" : ""}`}
       />
       <button
         type="button"
