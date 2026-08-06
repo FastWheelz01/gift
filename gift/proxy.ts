@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const SITE_PASSWORD = "@Liftigne01*";
+const SITE_PASSWORD = "@Liftigne01*/alinmylove";
 
 export default function proxy(request: NextRequest) {
   const cookie = request.cookies.get("site-auth");
