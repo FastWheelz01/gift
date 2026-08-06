@@ -7,7 +7,12 @@ export default function Home() {
 <main className="gradient-pattern min-h-screen flex flex-col items-center justify-center text-center">
   <div className="text-center">
     <h1 className="font-bold text-white drop-shadow-lg text-2xl">
-u managed to crack it
+Hello alin....it has been a lot of time since we've met each other.
+      <br />
+I know this might be a small suprise to you but it has came from all my heart to make you happy and steal your heart :3
+      <br />
+I shall let you acces our souvenir vault of all our fun moments and lovely text of our relation may love be with us 😘💕 ^^      
+    
     </h1>
         <div className="text-center">
         <Link href="/gift">

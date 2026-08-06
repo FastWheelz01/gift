@@ -9,7 +9,7 @@ export default function EnterPassword() {
   const router = useRouter();
 
   const handleSubmit = () => {
-    if (password !== "alinmylove") {
+    if (password !== "@Liftigne01*") {
       setError(true);
       return;
     }
