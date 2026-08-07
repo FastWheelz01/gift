@@ -11,7 +11,7 @@ Hello alin....it has been a lot of time since we've met each other.
       <br />
 I know this might be a small suprise to you but it has came from all my heart to make you happy and steal your heart :3
       <br />
-I shall let you acces our souvenir vault of all our fun moments and lovely text of our relation may love be with us 😘💕 ^^      
+i will now allow you to enter the page u waited a long time for may love be with us 😘💕 ^^      
     
     </h1>
         <div className="text-center">
