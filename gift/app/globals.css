@@ -54,3 +54,16 @@ body {
     background-position: 100% 50%;
   }
 }
+
+@keyframes flash-color {
+  0%, 100% {
+    color: #ffffff;
+  }
+  50% {
+    color: #ef4444;
+  }
+}
+
+.flash-text {
+  animation: flash-color 1s infinite;
+}

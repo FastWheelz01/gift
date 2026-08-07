@@ -39,6 +39,9 @@ export default function EnterPassword() {
         Enter
       </button>
       {error && <p className="text-red-500">Wrong password / mauvais mot de passe</p>}
+      <div className="text-center text-sm text-white">
+        Curent estimated time remaining ~1 day / temps restant estimé ~1 jour
+      </div>
     </main>
   );
 }
