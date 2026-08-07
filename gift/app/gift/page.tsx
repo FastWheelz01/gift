@@ -17,7 +17,7 @@ export default function Page() {
         <button
           type="button"
           onClick={() => setRevealed(true)}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white text-pink-700 font-semibold py-2 px-4 rounded-lg m-2"
+          className="absolute top-20 left-20 bg-white text-pink-700 font-semibold py-2 px-4 rounded-lg m-2"
         >
           Reveal the code
         </button>
