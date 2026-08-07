@@ -23,7 +23,7 @@ export default function Page() {
         </button>
 
         {revealed && (
-          <h1 className="absolute top-110 left-125 font-bold drop-shadow-lg text-2xl flash-text">
+          <h1 className="absolute top-110 text-center font-bold drop-shadow-lg text-2xl flash-text">
             The roblox 500 robux gift card code is: TO BE BOUGHT 
           </h1>
         )}
