@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <main>
-      <div className="relative min-h-screen bg-pink-500 flex flex-col items-center py-2">
+      <div className="relative bg-[url('/alin.png')] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center py-2">
         <h1 className="w-full px-10 font-bold text-white drop-shadow-lg text-2xl text-center">
           I wanted to do a souvenir vault first for us but..we didnt had any pictures of us together in the same place sadly but i have found something else to offer wich is my ethernal love for you as of it explain why i first did this website and for a gift i chose to offer you a total sum of 500 robux wich i know isnt much but for you itmay mean a lot i hope youl spend it wisely.
         </h1>
