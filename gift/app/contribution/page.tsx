@@ -15,7 +15,7 @@ export default function Page() {
   <span>Debugging: Claude AI</span>
   <span>The gifted: Alin</span>
     </div>
-    <div className="relative min-h-screen w-full max-w-md px-4">
+    <div className="relative min-h-screen w-full max-w-xl px-4">
       <h1 className="flex flex-col items-center justify-center font-bold text-white drop-shadow-lg text-2xl absolute bottom-0 left-1/2 -translate-x-1/2 absolute bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md px-4">
         Thanks for visiting this page, and I hope you enjoy the site and we meet in real life one day.
       </h1>
