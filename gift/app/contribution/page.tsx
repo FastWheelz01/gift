@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Alin from "@/public/alin.png";
 
 export default function Page() {
   return (
@@ -12,12 +13,25 @@ export default function Page() {
         <span>Coding: Elliot</span>
         <span>Design: Elliot</span>
         <span>Debugging: Claude AI</span>
-        <span>The gifted: Alin</span>
+        <span>The gifted: Alin
+          <img
+          src={Alin.src}
+          alt="Alin"
+          className="w-16 h-16 rounded-full border-4 border-white drop-shadow-lg"
+        />
+        </span>
       </div>
-
-      <p className="font-bold text-white drop-shadow-lg text-2xl text-center absolute bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md px-4">
+      <div>
+        
+      </div>
+      <p className="w-full px-30 font-bold text-white drop-shadow-lg text-2xl text-center absolute bottom-6 left-1/2 -translate-x-1/2">
         Thanks for visiting this page, and I hope you enjoy the site and we meet in real life one day.
       </p>
+      <Link href="/">
+        <button type="button" className="bg-white text-purple-700 font-semibold py-2 px-4 rounded-lg m-2 absolute right-0 bottom-0">
+          Home page
+        </button>
+      </Link>
     </div>
   );
 }
